@@ -1,0 +1,69 @@
+footer{
+    width: 100%;
+    background: url(./assets/Background-image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    font-family: calibri;
+    align-items: center;
+    z-index: 9;
+}
+
+footer .contf{
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 5%;
+}
+footer h3{
+    font-weight: 100;
+    font-size: 1.1vw;
+    margin-left: 5%;
+    letter-spacing: 1px;
+}
+footer .contf .call,.write,.follow{
+    margin: 0 30px 0 30px;
+    font-weight: 100;
+    font-size: 1.1vw;
+    letter-spacing: 1px;
+    text-align: center;
+}
+footer .contf .call h2,.write h2,.follow h2{
+    font-size: 1.1vw;
+    font-weight: 600;
+    margin: 5px;
+}
+.follow i{
+    margin: 5px;
+}
+
+@media only screen and (max-width:850px){
+    footer{
+        height: 75px;
+    }
+
+    footer .contf .call h2,.write h2,.follow h2{
+        font-size: 8px;
+        font-weight: 600;
+        margin: 5px;
+    }
+
+    footer .contf .call,.write,.follow{
+        margin: 0 30px 0 30px;
+        font-weight: 100;
+        font-size: 5px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    footer h3{
+        width: 100px;
+        font-weight: 100;
+        font-size: 5px;
+        margin-left: 5%;
+        letter-spacing: 1px;
+    }
+
+    
+}

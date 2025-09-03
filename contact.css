@@ -1,0 +1,129 @@
+
+
+.contact-main{
+    height: 100vh;
+}
+i{
+    overflow: hidden;
+    color: rgb(22,61,255);
+}
+
+.headTitle{
+    font-size: 3vw;
+}
+ .headTitle i{
+    color: rgb(22, 61, 255); 
+    margin: auto 10px; 
+    font-size: 2vw;
+ }
+
+.main-contact{
+    width: 100vw;
+    height: auto;
+    background: rgb(254, 238, 213);
+    overflow: hidden;
+}
+
+.form-container{
+    width: 60vw;
+    height: auto;
+    margin: 60px auto;
+    margin-top: 90px;
+    /* background: url(assets/Background-image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    background-color: #fff; 
+    box-shadow: 1px 1px 20px rgb(120, 119, 119);
+    overflow-y: hidden;
+}
+
+.contact-phone{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 20px auto;
+}
+.contact-phone i{
+    margin: auto 5px;
+}
+.contact-phone h1{    
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.contact-phone h3{
+    font-size: 1.5vw;
+}
+.contact-phone div{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1{
+    width: 40%;
+    border-radius: 5px;
+    margin: auto 5px;
+}
+img{
+    width: 100%;
+    text-align: center;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.main-contact .form {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    margin: 40px 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+@media only screen and (max-width:850px){
+ .contact-main{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(254, 238, 213);
+}   
+
+.headTitle{
+    font-size: 20px;
+    display: flex;
+}
+ .headTitle i{
+    font-size: 20px;
+    align-items: center;
+ }
+
+.form-container{
+    width: 80vw;
+    padding: 0;
+}
+
+.contact-phone h1{
+ font-size: 15px;
+}
+
+.contact-phone h3{
+    font-size: 12px;
+}
+.contact-phone div{
+    width: 100%;
+    flex-wrap: wrap;
+}
+.img{
+    position: absolute;
+    display: flex;
+    align-self: flex-end;
+    display: flex;
+    align-self: center;
+}
+}
