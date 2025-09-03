@@ -1,6 +1,6 @@
 footer{
     width: 100%;
-    background: url(./assets/Background-image.jpeg);
+    background: url(Background-image.webp);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -66,4 +66,5 @@ footer .contf .call h2,.write h2,.follow h2{
     }
 
     
+
 }
