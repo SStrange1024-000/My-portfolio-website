@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham/Web Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="navStyle.css">
+    <link rel="stylesheet" href="contentStyle.css">
+    <link rel="stylesheet" href="footerStyle.css">
+</head>
+<body>
+    <div class="main">
+        <nav class="navbar" style="position: fixed;">
+            <div class="logo-container">                
+                <h2 id="web-title"><i class="fa-sharp fa-solid fa-square" style="color: rgb(22, 61, 255); margin-right: 10px; font-size: 1.5vw;"></i>SDSWZ<Span>/ WEB DEVELOPER</Span></h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="Index.html" class="abt">ABOUT ME</a></li>
+                <li><a href="Resume.html">RESUME</a></li>
+                <li><a href="project.html">PROJECT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <i class="fa-solid fa-house home-btn" onclick="ss" ></i>
+        </nav>
+
+        <!--  Body section -->
+        <div class="main2">
+            <div class="col1">
+                
+                <div class="square">
+
+                    <div class="Scol1">
+                        <div id="profile">
+                            <img src="WhatsApp_Image_2024-10-20_at_10.21.22_3d82ac1f-removebg-preview.png" alt="">
+                            <h1>Shubham Kumar Gond</h1>
+                            <hr style="width: 6vw; height: 5px; background-color: rgb(63, 13, 244); border: none; border-radius: 5px;">
+                            <p>UI Designer</p>
+                        </div>
+                        <!-- social media links -->
+                        <div class="social">
+                            <a href="https://www.facebook.com/shubhamkumargond.sagar" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/shubham-kumar-gond-0a7241228/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/sstrange_1024/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                
+                    <div class="txtCont">
+                        <h1>Hello</h1>
+                        <p class="title-desc">Here is my description</p>
+                    
+                        <div class="btn-cont">
+                            <button class="btn1" onclick="myFunc()">Resume</button>
+                            <button class="btn2" onclick="myFunc2()">Project</button>
+                        </div>
+                    
+                        <p class="para1">Hi, I'm Shubham, a skilled Project Engineer experienced in managing engineering projects from inception to successful completion.</p>
+                    
+                        <p class="para2">With my technical proficiency, attention to detail, and ability to lead cross-functional teams,
+                         I have delivered projects that meet quality standards, deadlines, and budgetary constraints.</p>
+                    </div>
+                
+                </div>
+
+            
+        
+            </div>
+
+        <!--    Footer Section   -->  
+        <footer class="footerDemo" >
+            <h3>
+                © 2035 by Shubham Gond. <br>
+                Design reference from Wix</h3>
+            <div class="contf">
+                <div class="call">
+                    <h2>Call</h2>
+                    91x-xxxx-x13
+                </div>
+                <div class="write">
+                    <h2>Write</h2>
+                    skg1xxxx0@gmail.com
+                </div>
+                <div class="follow">
+                    <h2>Follow</h2>
+                        <a href="https://www.facebook.com/shubhamkumargond.sagar" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/shubham-kumar-gond-0a7241228/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/sstrange_1024/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </footer> 
+        
+        </div>
+    </div>
+
+        
+
+           
+    
+   <script src="script.js"></script> 
+  <script>
+   function myFunc(){
+     window.open("Resume.html",'_self');
+   }
+   function myFunc2(){
+     window.open("project.html",'_self');
+   }
+
+  </script>
+</body>
+</html>
