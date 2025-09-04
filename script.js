@@ -10,3 +10,8 @@ NavBar.addEventListener('click',()=>{
     NavBar.classList.toggle('mobile-nav')
 
 })
+
+// home page return
+function goHome() {
+    window.location.href = "index.html"; // replace with your homepage link
+  }
